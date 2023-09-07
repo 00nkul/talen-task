@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.dark-theme{
+    background-color: #2c2c2c;
+    color: #ebebeb;
+}
+
+/* for width greater than 1270 px */
+@media screen and (min-width: 1300px){
+    .container{
+        height: 100vh;
+    }
+}
+
+.theme-switch-btn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        transform: scale(1.05);
+    }
+}

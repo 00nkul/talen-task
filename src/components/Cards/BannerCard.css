@@ -1,0 +1,79 @@
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+}
+.dark-card {
+    background-color: #272727;
+    color: #ebebeb;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    
+    &:hover {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);    
+    }
+}
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    margin-right: 0.5rem;
+}
+.btn-light:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-dark {
+    background-color: #333333;
+    color: #fff;
+    border: 1px solid #000;
+    margin-right: 0.5rem;
+}
+.btn-dark:hover {
+    background-color: #000;
+    color: #fff;
+}
+.btn-secondary {
+    background-color: #000;
+    color: #fff;
+}
+h5{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
