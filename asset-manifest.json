@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/00nkul/talen-task/static/css/main.6d3ae58b.css",
+    "main.js": "/00nkul/talen-task/static/js/main.a6173797.js",
+    "index.html": "/00nkul/talen-task/index.html",
+    "main.6d3ae58b.css.map": "/00nkul/talen-task/static/css/main.6d3ae58b.css.map",
+    "main.a6173797.js.map": "/00nkul/talen-task/static/js/main.a6173797.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d3ae58b.css",
+    "static/js/main.a6173797.js"
+  ]
+}
